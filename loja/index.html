@@ -1,0 +1,18 @@
+<!doctype html />
+<html lang="pt-br">
+	<head>
+			<meta charset="utf-8">
+			<title>Primeiro script</title>
+	</head>
+	<body>
+			<p>Primeiro script</p>
+			<script type="text/javascript" src="script/moeda.js">
+			</script>
+			<script type="text/javascript">
+				var numero = 9.9;
+				var formatado = "R$ " + numero.toFixed(2)
+				formatado = formatado.replace(".", ",");
+				console.log(formatado);
+			</script>
+	</body>
+</html>
