@@ -2,7 +2,9 @@
 var escola = "Caelum",
 	curso = "Javascript",
 	instrutor = "Leonardo",
-	cargaHoraria = "20hrs"
+	cargaHoraria = 20,
+	pago = true
 
 
-console.log(escola, curso, instrutor, cargaHoraria)
+console.log(escola, curso, instrutor, cargaHoraria, pago)
+console.log(typeof(escola), typeof(pago), typeof(cargaHoraria))
