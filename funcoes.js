@@ -38,3 +38,10 @@ function escopo() {
 escopo()
 console.log(local2)
 console.log(global)
+
+
+var people = {
+	peso: 60
+	, falar: function(){ console.log("Meu peso é", this.peso)}
+};
+people.falar();
