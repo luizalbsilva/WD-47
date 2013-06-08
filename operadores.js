@@ -7,6 +7,7 @@ console.log(x=x-1) // 2
 console.log(x--)   // 2 com x = 1
 console.log(x)
 console.log(x+=4)
+console.log(x/=5)
 
 // Matemáticos
 console.log("adição", 1+1)
@@ -36,3 +37,5 @@ console.log("Ternário",1==2?"um":"Diferente de um")
 console.log("or", 2 | 1)
 console.log("and", 3 & 2)
 console.log("xand", 3 ^ 2)
+console.log("bit shift left",  1 << 4)
+console.log("bit shift right",  2 >> 1)
