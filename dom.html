@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Eventos e DOM</title>
+		<style type="text/css">
+			.error { border: 1px solid red;}
+			.success { border: 1px solid blue;}
+		</style>
+		<script src="head.load.min.js"></script>
+	</head>
+	<body class="principal">
+		<h1 style=" ">DOM</h1>
+		<ul id="lista">
+			<li>Criando elementos</li>
+			<li>Modificando elementos</li>
+			<li>Renovando elementos</li>
+		</ul>
+		<p><a href="#" id="view"  data-control="0">Ocultar</a></p>
+		<script type="text/javascript">
+			head.js("eventos.js");
+		</script>
+
+		<form>
+			<label>CEP</label>
+			<input type="text" name="cep" id="cep">
+			<button>Validar</button>
+		</form>
+	</body>
+</html>
