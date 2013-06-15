@@ -59,6 +59,18 @@ input.addEventListener("blur", function(e){
 });
 
 input.addEventListener("keypress", function(e){
-	if((e.which<48)|| (e.which>59))
+	if((e.which<48)|| (e.which>59)){
 		e.preventDefault();
+	}
+	localStorage.setItem("cep", this.value);
 });
+
+window.onload = function() {
+	if(localStorage && localStorage.length>0) {
+		document.getElementById("cep").value = localStorage.getItem("cep");
+	}
+}
+
+input.addEventListener("blur", function(){
+	localStorage.setItem("cep", this.value);
+})
