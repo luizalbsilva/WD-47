@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+			<meta charset="utf-8">
+			<title>Clientes</title>
+			<script src="head.load.min.js" type="text/javascript"></script>
+			<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css">
+	</head>
+	<body>
+		<table class="pure-table">
+		    <thead>
+		        <tr>
+		            <th>ID</th>
+		            <th>Nome</th>
+		            <th>Email</th>
+		            <th>Telefone</th>
+		        </tr>
+		    </thead>
+
+		    <tbody>
+		        <tr>
+		        	<td colspan="4">Carregando....</td>
+		        </tr>
+		    </tbody>
+		</table>
+		<script type="text/template" id="linha">
+		        <tr>
+		            <td class="ID">1</td>
+		            <td class="Nome">Honda</td>
+		            <td class="Endereco">Accord</td>
+		            <td class="Telefone">2009</td>
+		        </tr>
+		</script>
+		<script>
+			head.js("modernizr.custom.03349.js", "jquery-2.0.2.min.js", "zebra.plugin.js", "clientes.js", "modrn.js");
+		</script>
+	</body>
+</html>
